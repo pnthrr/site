@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+h1 {
+    color: royalblue; /* Text color */
+    text-shadow: 2px 4px 4px rgba(46, 91, 173, 0.6); /* Shadow effect */
+}
+
