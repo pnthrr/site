@@ -6,30 +6,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    overflow: hidden; /* No scrolling! */
 }
+
 .container {
-    background-color: #f4e4bc;
-    background-image: url("paper-texture.jpg"); /* Add this! */
-    background-blend-mode: multiply; /* Blends the color and texture together */
-}
-/* 2. The Floating Island (The Paper) */
-.container {
-    background-color: #f4e4bc; /* Classic "Old Paper" Sepia */
-    padding: 50px;
-    width: 60%;
-    max-width: 500px;
-    text-align: center;
-    
-    /* This makes it look "Floating" */
-    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.5);
-    
-    /* This makes the edges look handmade/uneven */
-    border-radius: 2px;
-    border: 1px solid #d2b48c;
-    
     /* The Font */
-    font-family: "Times New Roman", serif;
+    font-family: monospace;
     color: #3e2f1c;
 }
 
